@@ -5,7 +5,7 @@ int main()
 {
     int a,b,c;
     cin>>a>>b>>c;
-    if(a+b+c=180)
+    if(a+b+c==180)
     {cout<<"trianlge";}
     else{cout<<"not a traingle";}
     return 0;
