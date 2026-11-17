@@ -14,10 +14,11 @@
     if(year%4!=0)
         {if(n<=7 && n%2!=0)
             {cout<<31};
-            else if(n=2){cout<<28;}
-            else {cout<<30;}}
+            else if(n==2){cout<<28;}
+        else {cout<<30;}}
     else{
-        if(n%2!=0){cout<<30;}
-        else{cout<<31;}
+        if(n<=7 && n%2!=0){cout<<31;}
+        {else if(n==2){cout<<29}
+        else{cout<<"30"}}
     }
  } 

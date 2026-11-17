@@ -16,7 +16,7 @@ int main()
         num=num/10;
     }
     p=arr.size();
-    for(i=0;i<p-1;i++)
+    for(i=0;i<p;i++)
     {
         cout<<arr[i];
     }
